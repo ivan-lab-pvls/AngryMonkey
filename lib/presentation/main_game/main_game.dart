@@ -96,7 +96,7 @@ class _MainGameState extends State<MainGame> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Container(
-                  height: 240.v,
+                 height: MediaQuery.of(context).size.height * .2,
                   width: 164.h,
                   padding: EdgeInsets.symmetric(
                     horizontal: 33.h,
@@ -132,7 +132,7 @@ class _MainGameState extends State<MainGame> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Container(
-                  height: 240.v,
+                  height: MediaQuery.of(context).size.height * .2,
                   width: 164.h,
                   padding: EdgeInsets.symmetric(
                     horizontal: 33.h,

@@ -13,8 +13,8 @@ class InformationPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 420.v,
-      width: 400.h,
+      height: MediaQuery.of(context).size.height * .4,
+      width:  MediaQuery.of(context).size.width,
       child: Stack(
         children: [
           Container(
@@ -28,7 +28,7 @@ class InformationPanel extends StatelessWidget {
                 image: fs.Svg(
                   ImageConstant.imgRewardPanel,
                 ),
-                fit: BoxFit.cover,
+                fit: BoxFit.fill,
               ),
             ),
             child: Column(
